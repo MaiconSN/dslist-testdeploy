@@ -1,5 +1,5 @@
 # Etapa 1: Build do projeto com Maven Wrapper
-FROM eclipse-temurin:17-jdk AS builder
+FROM eclipse-temurin:21-jdk AS builder
 WORKDIR /app
 
 RUN apt-get update && apt-get install -y dos2unix
