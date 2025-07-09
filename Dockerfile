@@ -12,7 +12,7 @@ COPY src/ ./src/
 RUN dos2unix mvnw && chmod +x mvnw && ./mvnw -DskipTests clean package
 
 # Etapa 2: Executa o .jar gerado
-FROM eclipse-temurin:17-jdk
+FROM eclipse-temurin:21-jdk
 WORKDIR /app
 
 COPY --from=builder /app/target/dslist-0.0.1-SNAPSHOT.jar app.jar
