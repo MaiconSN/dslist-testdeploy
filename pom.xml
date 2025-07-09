@@ -44,13 +44,13 @@
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		<!-- Temporariamente comentado para evitar warning do Spring Boot 3.4.x acima
+		<!-- Temporariamente comentado para evitar warning do Spring Boot 3.4.x
+		acima -->
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
