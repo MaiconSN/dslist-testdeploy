@@ -22,6 +22,8 @@ public class DslistApplication {
 	    app.run(args);
 	    
 	    System.out.println("🚀 API Spring Boot iniciada com sucesso!");
+	    System.out.println("🔧 Perfil ativo: " + System.getenv("APP_PROFILE"));
+
 
 		
 	}
